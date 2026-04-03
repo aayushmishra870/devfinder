@@ -1,16 +1,41 @@
-# React + Vite
+# DevFinder 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern web app to search and explore any GitHub user profile instantly.
 
-Currently, two official plugins are available:
+## 🔗 Live Demo
+[devfinder-aayush.netlify.app](https://devfinder-aayush.netlify.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
+- Search any GitHub user by username
+- View profile details like bio, location, followers and following
+- Browse top 6 repositories with stars and forks
+- See programming languages used
+- Responsive and modern glassmorphism UI
 
-## React Compiler
+## 🛠️ Tech Stack
+- React 19
+- Tailwind CSS v4
+- Axios
+- GitHub REST API
+- Vite
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📦 Run Locally
 
-## Expanding the ESLint configuration
+Clone the project
+```bash
+git clone https://github.com/aayushmishra870/devfinder.git
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Install dependencies
+```bash
+npm install
+```
+
+Start the server
+```bash
+npm run dev
+```
+
+## 🙋‍♂️ Author
+**Aayush Mishra**
+- GitHub: [@aayushmishra870](https://github.com/aayushmishra870)
